@@ -1,0 +1,33 @@
+:root {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  min-height: 3em;
+  min-width: 3em;
+  font-size: large;
+  cursor: pointer;
+  background-color: beige;
+  text-align: center;
+}
+button:hover {
+  background-color: orange;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.grid-text {
+  text-align: center;
+  font-size: 1em;
+}
+
+.grid {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
