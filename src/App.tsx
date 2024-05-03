@@ -72,7 +72,6 @@ function App() {
         val = 2;
         setTurn(1);
       }
-      console.log(turn);
       newMatrix[pos] = val;
       setMatrix(newMatrix);
     }
